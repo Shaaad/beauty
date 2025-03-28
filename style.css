@@ -1,8 +1,13 @@
+@import url(header.css);
+@import url(table.css);
+@import url(nav.css);
+
 /* Reset and base styles  */
 * {
 	padding: 0px;
 	margin: 0px;
 	border: none;
+	box-sizing: border-box;
 }
 
 *,
