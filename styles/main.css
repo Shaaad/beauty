@@ -1,0 +1,76 @@
+  .main-content {
+    background-color: #24afea; /* Голубой фон */
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; /* Выравнивание элементов по центру горизонтально */
+    justify-content: space-around;
+    text-align: left; /* Выравнивание текста по левому краю */
+    color: #fff; /* Белый цвет текста */
+  }
+  
+  /* Стили для контейнера с текстом */
+  .text-container {
+    margin-bottom: 20px;
+    width: 50%; /* Ограничение ширины текста */
+    padding: 10px;
+  }
+  
+  .text-container h1 {
+    font-size: 8em;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .text-container p {
+    font-size: 2em;
+    line-height: 1;
+    text-align: left;
+  }
+  
+  /* Стили для контейнера с изображением */
+  .image-container {
+    margin-bottom: 20px;
+    border-radius: 10px; /* Закругленные углы */
+    overflow: hidden; /* Обрезаем изображение по границам контейнера */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Тень */
+  }
+  
+  .image-container img {
+    display: block; /* Убираем отступ снизу у изображения */
+    width: 100%;
+    height: 550px;
+  }
+  
+  /* Стили для контейнера с кнопками */
+  .buttons-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Отступы между кнопками */
+  }
+  
+  /* Общие стили для кнопок */
+  .button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #1c8e7c; /* Зеленый цвет */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease; /* Плавная анимация при наведении */
+  }
+  
+  .button:hover {
+    background-color: #15665a; /* Более темный зеленый цвет при наведении */
+  }
+  
+  /* Стили для кнопки "Подробнее" */
+  .text-container .button {
+    background-color: #1c8e7c;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1em;
+    margin-top: 20px;
+    display: inline-block;
+  }
