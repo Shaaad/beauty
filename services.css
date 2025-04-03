@@ -1,0 +1,56 @@
+.main-content-services {
+    background-color: #00008b; /* Голубой фон */
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; /* Выравнивание элементов по центру горизонтально */
+    justify-content: space-around;
+    text-align: left; /* Выравнивание текста по левому краю */
+    color: #fff; /* Белый цвет текста */
+  }
+
+.carousel-container {
+    width: 50%;
+    height: 550px;
+    width: 413px;
+    overflow: hidden; /* Скрываем все, что выходит за границы контейнера */
+    position: relative; /* Для позиционирования кнопок управления */
+    flex-direction: row;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Тень */
+}
+
+.carousel {
+    display: flex; /* Выстраиваем изображения в ряд */
+    transition: transform 0.5s ease-in-out; /* Плавная анимация */
+}
+
+.carousel img {
+    width: 100%; /* Каждое изображение занимает 100% ширины контейнера */
+    border-radius: 10px; /* Закругленные углы */
+    flex-shrink: 0; /* Запрещаем изображениям сжиматься */
+}
+
+.carousel-controls {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+    padding: 0 10px;
+}
+
+.carousel-controls button {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.carousel-controls button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
